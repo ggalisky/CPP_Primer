@@ -1,7 +1,7 @@
 #include <iostream>
 #include "declartion_test.h"
 
-int jimmy;
+extern int jimmy; //page 111
 
 
 int main()

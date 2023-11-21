@@ -6,4 +6,8 @@ This readme will also serve as my logbook for how my progress is going.
 
 11/18/2023 
 Start Page 0
-End Page 
+End Page 86
+
+What did I learn? 
+
+Most of this is review, but I learned more about reading input and output from the command line, similar to python. Excited to dig more into classes and pointers, but thats further along. 
