@@ -11,3 +11,8 @@ End Page 86
 What did I learn? 
 
 Most of this is review, but I learned more about reading input and output from the command line, similar to python. Excited to dig more into classes and pointers, but thats further along. 
+
+11/21/2023
+
+Start page 86
+
