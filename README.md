@@ -16,3 +16,16 @@ Most of this is review, but I learned more about reading input and output from t
 
 Start page 86
 
+End 136
+
+Learned about pointers, references, dereference, and basic data types. 
+
+11/22/2023 
+
+Start page 136
+End page 155
+
+Learned about const, constexpr, typedef to create type aliases and the auto type. 
+
+
+

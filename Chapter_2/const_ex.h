@@ -1,0 +1,1 @@
+extern const int cat = 4000;
