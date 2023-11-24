@@ -27,5 +27,48 @@ End page 155
 
 Learned about const, constexpr, typedef to create type aliases and the auto type. 
 
+11/23/2023
+
+Start 155
+
+I've been hand writing notes, but I don't have access to my notebook, right now. 
+I'll type the notes here instead
+
+the auto type tell the compiler to figure out the type for a variable or expression
+Having the compiler deduce type can be useful for code readability: 
+
+```
+std::pair<const std::string, std::vector<foo<T>>::iterator> baz() {
+	return std::make_pair("Hello", _table.begin());
+}
+
+using myType = std::pair<const std::string, std::vector<foo<T>>::iterator>;
+myType baz() {
+	return std::make_pair("Hello", _table.begin());
+}
+
+auto baz() {
+	return std::make_pair("Hello", _table.begin());
+}
+```
+
+You cant use auto and not initialize a variable. 
+
+Auto can also be useful when the return type of a function is ambiguous
+
+2.5.3 - decltype
+
+decltype(f()) sum = x // sum has the type that f returns
+
+if f() is "int f()" then sum will have type int. The type assigned depends on the
+type of the function passed into decltype
+
+
+2.6 Defining Our Own Data Structures - see exercises
+
+Finish page 179
+
+Learned about auto, decltype, and structs
+
 
 
