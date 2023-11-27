@@ -70,5 +70,49 @@ Finish page 179
 
 Learned about auto, decltype, and structs
 
+11/26/2023
+
+Start page 179
+
+Going to continue with typed notes, since it's easier
+
+Ch3, Strings, Vectors, and Arrays
+
+a string is a variable length sequence of characters. A vector holds a variable length sequecne of objects of a given type
+Arrays are a built in type where as string and vector come from C++ libs
+arrays are more of a pain to use since they represent "facilites of the hardware" - wtf does this mean?
+
+Basically what it boils down to is arrays must have their size defined at compile time, while vectors can change size at runtime - important for embedded systems development
+
+namespaces don't have to be used every time, you can use:
+
+using std::cin;
+Note - you need to type "using::XYZ" for each and every scope you want to include
+
+headers should NEVER have using:: in them bc when you include them that "using::ZYX" gets applied to the entire program. Always consider the scope when you want to use "using::XYZ"
+
+Ways to init a string
+
+string s1; // empty string
+string s2 (s1); //s2 is a copy of s1
+string s2 = s1 // equivalent to s2(s1), s2 is a copy of s1
+string s3 ("value") // s3 is a copy of the string literal, not including the null char
+string s3 = "value" // Equivalent to s3("value"), s3 is a copy of the string literal
+string s4(n,'C') // init s4 with n copies of the charcter 'c'
+
+interestingly my_string.size(); does not return type int, it returns type string::size_type. We can avoid writing:
+
+string::size_type len = my_string.size();
+
+and write it as
+
+auto len = my_string.size(); //good example of auto being used to make the code easier to type and read. 
+
+If we need to get len into an int, then we can just do (int)len and cast it as an int
+
+end page 198
+
+learned about using::, strings, and the for range thing
+
 
 
