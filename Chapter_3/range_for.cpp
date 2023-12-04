@@ -23,5 +23,16 @@ int main()
     {
         cout << value << endl;
     }
+    
+
+    string S = "Hello World!";
+
+    for (auto &c : S) // by making c a reference we are able to reach into S and modify each character. Without making c a reference we wouldn't be able to make the modification
+    {
+        c = toupper(c);
+    }
+
+    cout << S << endl;
+
     return 0;
 }

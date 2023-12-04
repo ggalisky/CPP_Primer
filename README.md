@@ -115,4 +115,14 @@ end page 198
 learned about using::, strings, and the for range thing
 
 
+12/4/2023
+
+Start Page 198
+
+Library vector Type
+
+vector is a collection of objects all of which have the same type
+vectors are also  referred to as "containers"
+
+
 
