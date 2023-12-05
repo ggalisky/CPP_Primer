@@ -124,5 +124,14 @@ Library vector Type
 vector is a collection of objects all of which have the same type
 vectors are also  referred to as "containers"
 
+a vector is a template not a type
+
+vector<int> is the syntax to make a vector to hold ints
+
+interesting note on page 215, vectors elements can be added at runtime often with better performance than if they were init with those values hardcoded. This differs from C and Java
+
+Started learning about iterators
+
+end page 225
 
 
